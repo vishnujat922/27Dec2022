@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js classes</title>
+    <script>
+        // i san write js code before the clossing of head tag
+
+    </script>
+</head>
+
+<body>
+
+    <script>
+        //1 i can write js code before the clossing of body tag 
+
+        //function defination
+        //this function will be no return anything 
+        function add(x, y) {
+            alert(x + y);
+
+        }
+
+        //2 function calling/envocation/execution/execute
+        add(4, 6); // actual argument
+
+        //1 function defination
+        function multiplay(p, q) {
+            //Every function return something
+
+            return p * q;
+
+        }
+        //2 function calling/evocation/execution/execute 
+        let result = multiplay(6, 7); 6, 7 // 6,7 are actual Arguments
+        console.log(result);
+
+        //1 function defination
+        function divide(a = 56, b = 7) {// a and b are formal argument with defalt value
+            //the 3rd way to see the out put
+            document.write(a / b);
+            document.write('<br>');
+        }
+
+        //2 function invocation
+        divide();
+        divide(63);
+    </script>
+    <script>
+        /*
+        class ClassName {
+
+        }
+        */
+        class Calculate {
+            //1 Method/Function defination
+            addition(x, y) {
+                //Every function return something
+                return x + y;
+
+            }
+            substraction(x, y) {
+                //Every function return something
+                return x - y;
+
+            }
+            multiplication(x, y) {
+                //Every function return something
+                return x * y;
+
+            }
+            division(x, y) {
+                //Every function return something
+                return x / y;
+            }
+
+        }
+
+        // I order to call the methods of a class you need to
+        // create the class object
+
+        //1 let object = new ClassName();
+        //2 object.method
+        let myobj = new Calculate();
+
+        let result2 = myobj.addition(3, 2);
+        console.log(result2);
+
+        let result3 = myobj.substraction(15, 25);
+        document.write(result3);
+        document.write('<br>');
+
+        class CalculateA {
+            addition(a, b) {
+                //Every function return something
+                return a + b;
+            }
+        }
+        // I order to call the method of class you need 
+        //create the class object
+
+        //1 let object = new ClassName();
+        //2 object.method
+        let result4 = myobj.substraction(45, 30);
+
+        document.write(result4);
+        document.write('<br>');
+
+        class CalculateB {
+            division(a, b) {
+                //Every function return something
+                return a / b;
+            }
+        }
+        // I order to call the method of class you need
+        //create the class object 
+
+        //1 var object = new ClassName();
+        //object.method
+        let result5 = myobj.division(25, 6);
+        document.write(result5);
+        class CalculateC {
+            multiplication(p,q) {
+                //Every function return something
+                return p * q;
+            }
+        }
+        //I order to call the method of class you need 
+        //create the class object
+
+        //1 let object = new ClassName();
+        //object.method
+        var result6 = myobj.multiplication(7, 9);
+        console.log(result6);
+        class CalculateD {
+            addition(a,b){
+            //Every function return something
+            return a + b;
+            }
+        }
+        // I order to call the method of class you need
+        // create the class object 
+
+        //1 let object = new ClassName();
+        //object.method
+        let result7 = myobj.addition(20,35);
+        window.alert(result6);
+        class CalculateE{
+            substraction(x,y){
+                // Every function return something
+                return x - y;
+            }
+        }
+        // I order to call the method of class you need
+        //create the class object
+        
+        //1 let object = new ClassName();
+        //object.method
+        let result8 = myobj.substraction(65,33);
+        document.write('<br>');
+        document.write(result8);
+        class CalculateF{
+            division(p,q){
+                //Every function return something
+                return p / q;
+            }
+        }
+        //1 I order to call the method of class you need 
+        // create the class object
+
+        //1 var object = new ClassName();
+        //object.method
+        var result9 = myobj.division(99,9);
+        console.log(result9);
+        class ClaculateG{
+            multiplication(r,s){
+                //Every function return something 
+                return r * s;
+            }
+        }
+        //1 I order to call the method of class you need
+        // create the class object
+
+        //1 var object = new ClassName();
+        //object.method
+        var result10 = myobj.multiplication(5,8);
+        window.alert(result10);
+        class CalculateH{
+            addiction(c,d){
+                //Every Function return something
+                return c + d;
+            }
+        }
+        //1 I order to call the method of the class you need
+        //create the class object 
+
+        //1 let object = new Classname();
+        //object.method
+        let result12 = myobj.addition(30,32);
+        console.log(result12);
+        class CalculateI{
+            substraction(e,f){
+                //Every function return something 
+                return e - f;
+            }
+        }
+        //1 I order to call the method of the class you need 
+        //create the class object
+        
+        //1 let object = new ClassName();
+        //object.method
+        let result13 = myobj.substraction(87,46);
+        document.write('<br>');
+        document.write(result13);
+        class calculateJ{
+            division(g,h){
+                //Every function return something
+                return g / h;
+            }
+        }
+        //1 I order to call the method of the class you need 
+        //create the class object
+
+        //1 let object = new ClassName();
+        //object.method
+        let result14 = myobj.division(96,12);
+        console.log(result14);
+        class calculateK{
+            division(I,J){
+                //Every function return something
+                return I * J;
+            }
+        }
+        //1 I order to call the method of the class you need 
+        //create the class object
+
+        //1 let object = new ClassName();
+        //object.method
+        let result15 = myobj.multiplication(13,10);
+        console.log(result15);
+        class calculateL{
+            addtion(k,l){
+                //Every function return something
+                return k + l;
+            }
+        }
+        //1 I order to call the method of the class you need 
+        //create the class object
+
+        //1 let object = new ClassName();
+        //object.method
+        let result16 = myobj.addition(96,12);
+        document.write('<br>');
+        document.write(result16);
+
+        class calculateM{
+            addtion(a,b){
+                //Every function return something
+                return a - b;
+            }
+        }
+        //1 I order to call the method of the class you need 
+        //create the class object
+
+        //1 let object = new ClassName();
+        //object.method
+        let result17 = myobj.substraction(96,12);
+        document.write('<br>');
+        document.write(result17);
+
+        class calculateN{
+            division(x , y){
+                //Every function return something
+                return X + Y;
+            }
+        }
+        //1 I order to call the method of the class you need 
+        //create the class object
+
+        //1 let object = new ClassName();
+        //object.method
+        let result18 = myobj.division(69,13);
+        document.write('<br>');
+        document.write(result18);
+        
+        class calculateO{
+            multiplication(x , y){
+                //Every function return something
+                return X * Y;
+            }
+        }
+        //1 I order to call the method of the class you need 
+        //create the class object
+
+        //1 let object = new ClassName();
+        //object.method
+        let result19 = myobj.division(26,5);
+        document.write('<br>');
+        document.write(result19);
+
+        class calculateP{
+            addiction(x , y){
+                //Every function return something
+                return X + Y;
+            }
+        }
+        //1 I order to call the method of the class you need 
+        //create the class object
+
+        //1 let object = new ClassName();
+        //object.method
+        let result20 = myobj.addition(26,65);
+        document.write('<br>');
+        document.write(result20);
+
+        class CalculateQ{
+            substraction(y,z){
+                //every Function return something
+                return y - z;
+            }
+        }
+        //1 I order to call the method of the class you need 
+        // create the class object
+
+        //1 var object = new ClassName();
+        //object.method
+        let result21 = myobj.substraction(59,36);
+        console.log(result21);
+
+        class CalculateR{
+            division(y,z){
+                //every Function return something
+                return y / z;
+            }
+        }
+        //1 I order to call the method of the class you need 
+        // create the class object
+
+        //1 var object = new ClassName();
+        //object.method
+        let result22 = myobj.division(625,25);
+        window.alert(result22);
+
+        class CalculateS{
+            multiplication(c , d){
+                //every function return something
+                return c * d;
+            }
+        }
+        //I order to call the method of the class you need 
+        //create the class object
+
+        //1 const object = new ClassName();
+        //2 object.method
+        //1 const object = new ClassName();
+        //2 object.method
+
+        const result23 = myobj.multiplication(13,9);
+        console.log(result23);
+
+        class CalculateT{
+            addition(a,b){
+                //Every Function rturn something
+                return a + b;
+            }
+        }
+        //I order to call the method of the class you need 
+        //create the class object
+        //1 let object = new ClassName();
+        //2 object.method
+        let result24 = myobj.addition(57,78);
+        document.write('<br>');
+        document.write(result24);
+        class CalculateU{
+            substraction(a,b){
+            //Every function return something
+            return a - b;
+        }
+        }
+        // I order to call the method of the class you need 
+        // create the class object
+        //1 var object = new ClassName();
+        //2 object.method
+        var result25 = myobj.substraction(89,32);
+        console.log(result25);
+        class CalculateV{
+            division(a,b){
+            //Every function return something
+            return a / b;
+        }
+        }
+        // I order to call the method of the class you need 
+        // create the class object
+        //1 var object = new ClassName();
+        //2 object.method
+        var result26 = myobj.division(625,5);
+        console.log(result26);
+        class CalculateW{
+            multiplication(a,b){
+            //Every function return something
+            return a * b;
+        }
+        }
+        // I order to call the method of the class you need 
+        // create the class object
+        //1 var object = new ClassName();
+        //2 object.method
+        var result27 = myobj.multiplication(81,9);
+        console.log(result27);
+        class CalculateX{
+            addition(a,b){
+            //Every function return something
+            return a + b;
+        }
+        }
+        // I order to call the method of the class you need 
+        // create the class object
+        //1 let object = new ClassName();
+        //2 object.method
+        let result28 = myobj.addition(175,75);
+        console.log(result28);
+        class CalculateY{
+            substraction(a,b){
+            //Every function return something
+            return a - b;
+        }
+        }
+        // I order to call the method of the class you need 
+        // create the class object
+        //1 var object = new ClassName();
+        //2 object.method
+        var result29 = myobj.substraction(676,171);
+        console.log(result29);
+        class CalculateZ{
+            division(a,b){
+            //Every function return something
+            return a / b;
+        }
+        }
+        // I order to call the method of the class you need 
+        // create the class object
+        //1 const object = new ClassName();
+        //2 object.method
+        const result30 = myobj.substraction(729,9);
+        document.write('<br>');
+        document.write(result30);
+
+    
+    </script>
+</body>
+
+</html>
